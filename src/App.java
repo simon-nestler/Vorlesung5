@@ -12,6 +12,6 @@ public class App {
         liste.einfuegen(8);
         System.out.println(liste);
         liste.einfuegen(-1);
-        System.out.println(liste);b
+        System.out.println(liste);
     }
 }

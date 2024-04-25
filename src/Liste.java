@@ -10,7 +10,7 @@ public class Liste {
         Knoten temp = kopf;
         Knoten vorgaenger = null;
 
-        while (temp != null && temp.wert < wert) {
+        while ((temp != null) && (temp.wert < wert)) {
             vorgaenger = temp;
             temp = temp.naechster;
         }
